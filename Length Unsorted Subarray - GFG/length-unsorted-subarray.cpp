@@ -12,7 +12,7 @@ public:
 	    // code here
 	    bool unsorted=false;
 	    int current_index;
-	    int left_index=0;
+	    int left_index=0;        // :)
 	    int right_index=0;
 	    int min=INT_MAX;
 	    int max=arr[0];
