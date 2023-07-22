@@ -35,23 +35,12 @@ struct Node {
   }
 };
 */
-
-
-class Solution
-{
-    public:
-    //Function to remove duplicates from unsorted linked list.
-    Node * removeDuplicates( Node *head) 
-    {
-     // your code goes here
-     if(head->next==NULL){
-         return head;
-     }
-     unordered_map<int,int> mp;
-     int node_value=head->data;
+void solve(Node* &curr){
+    unordered_map<int,int> mp;
+     int node_value=curr->data;
      mp[node_value]++;
-     Node* curr=head->next;
-     Node* prev=head;
+     Node* prev=curr;
+     curr=curr->next;
      Node* temp;
      while(curr!=NULL){
          node_value=curr->data;
@@ -66,7 +55,23 @@ class Solution
          }
          curr=curr->next;
      }
-     return head;
+}
+
+class Solution
+{
+    public:
+    //Function to remove duplicates from unsorted linked list.
+    Node * removeDuplicates( Node *head) 
+    {
+     // your code goes here
+     if(head->next==NULL){
+         return head;
+     }
+     Node* newhead=head;
+     
+     solve(head);
+     
+     return newhead;
     }
 };
 
