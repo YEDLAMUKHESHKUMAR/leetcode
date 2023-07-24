@@ -12,7 +12,7 @@ class Solution {
         // code here
         int steps=0;
         int zero_count=0;
-        int negative_count=0;
+        int negative_count=0;    // :)
         for(int i=0;i<n;i++){
             if(arr[i]==0){
                 zero_count++;
