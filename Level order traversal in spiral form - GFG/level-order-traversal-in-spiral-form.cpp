@@ -129,7 +129,7 @@ void solve(Node* root,stack<Node*> &left,stack<Node*> &right,vector<int> &ans){
         return;
     }
     while(!left.empty()){
-        Node* temp=left.top();
+        Node* temp=left.top();              // :)
         ans.push_back(temp->data);
         if(temp->right!=NULL){
             right.push(temp->right);
