@@ -16,7 +16,7 @@ class Solution{
         bool m_left=false;
         bool m_up=false;
         bool m_down=false;
-        int i=0,j=0;
+        int i=0,j=0;                                   // :)
         while(i>=0 && i<r && j>=0 && j<c){
             if(m_right==true){
                 if(m[i][j]==0) j++;
