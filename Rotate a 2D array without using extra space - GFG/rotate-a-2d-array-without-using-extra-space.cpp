@@ -12,7 +12,7 @@ public:
 	void rotateMatrix(vector<vector<int>>& arr, int n) {
 	    // code here   
 	    int i=0,j=0;
-	    for(int i=0;i<n;i++){
+	    for(int i=0;i<n;i++){       // :) :) :) :) :)
 	        for(j=i;j<n;j++){
 	            swap(arr[i][j],arr[j][i]);
 	        }
