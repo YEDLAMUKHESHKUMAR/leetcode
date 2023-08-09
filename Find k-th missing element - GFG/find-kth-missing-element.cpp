@@ -9,7 +9,7 @@ class Solution{
     int MissingNumber(int a[], int b[], int k, int n, int m)
     {
         // Complete the function
-        unordered_map<int,int> mp;
+        unordered_map<int,int> mp;    // :)
         for(int i=0;i<m;i++){
             mp[b[i]]++;
         }
