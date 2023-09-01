@@ -37,25 +37,27 @@ public:
         // }
         // return ans;
         // code here
-        vector<vector<int>> dp(n,vector<int> (n,-1));    
+        vector<int> prev(n,0);    
         for(int i=0;i<n;i++){
             int up=0;
             int up_right=0;
-            int up_left=0;
+            int up_left=0;                               // space optimization
+            vector<int> curr(n,0);
             for(int j=0;j<n;j++){                        
                 if(i==0 && j==0) {
-                    dp[i][j]=arr[i][j];
+                    curr[j]=arr[i][j];
                     continue;
                 }
-                if(i>0) up=dp[i-1][j];
-                if(i>0 && j>=0) up_left=dp[i-1][j-1];     // :) ...in this if i put j>0 its not working
-                if(i>0 && j+1<n) up_right=dp[i-1][j+1];    // if i put j+1<n ...it is not working
-                dp[i][j]=arr[i][j]+max(up,max(up_left,up_right));
+                if(i>0) up=prev[j];
+                if(i>0 && j>=0) up_left=prev[j-1];     // :) ...in this if i put j>0 its not working
+                if(i>0 && j+1<n) up_right=prev[j+1];    // if i put j+1<n ...it is not working
+                curr[j]=arr[i][j]+max(up,max(up_left,up_right));
             }
+            prev=curr;
         }
         int ans=0;
-        for(int i=0;i<n;i++){
-            ans=max(ans,dp[n-1][i]);
+        for(int j=0;j<n;j++){
+            ans=max(ans,prev[j]);
         }
         return ans;
         //610311225
