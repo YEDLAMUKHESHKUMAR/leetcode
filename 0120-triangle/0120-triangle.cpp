@@ -14,21 +14,24 @@ public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int m=triangle.size();
         int n=triangle[m-1].size();
-        vector<vector<int>> dp(m,vector<int> (n,-1));     // tabulation :) 
-        // return solve(0,0,m,triangle,dp);                     // no more recursion space
+        vector<int> next(n,0);     // tabulation :) 
+        // return solve(0,0,m,triangle,dp);                     // space optimization
         for(int j=0;j<n;j++){
-            dp[m-1][j]=triangle[m-1][j];    
+            next[j]=triangle[m-1][j];    
         }
         // dp[0][0]=triangle[0][0];    
         for(int i=m-2;i>=0;i--){
+            n=triangle[i].size();
+            vector<int> curr(n,0);
             for(int j=i;j>=0;j--){
-                int down=triangle[i][j]+dp[i+1][j];
-                int down_right=triangle[i][j]+dp[i+1][j+1];
-                dp[i][j]=min(down,down_right);
+                int down=triangle[i][j]+next[j];
+                int down_right=triangle[i][j]+next[j+1];
+                curr[j]=min(down,down_right);
             }
+            next=curr;
         }
         // int ans=INT_MAX;
         
-        return dp[0][0];
+        return next[0];
     }
 };
