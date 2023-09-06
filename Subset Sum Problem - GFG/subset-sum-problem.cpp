@@ -32,24 +32,23 @@ public:
     bool isSubsetSum(vector<int>arr, int sum){
         // code here 
         int n=arr.size();
-        vector<vector<bool>> dp(n,vector<bool> (sum+1,0)); // why i used 2d array?? observe there can be different possibility targets with same index ....if you return false without checking various targets you will get false
-        // return solve(0,sum,n,arr,dp);        
-        for(int i=0;i<n;i++){                   // tabulation
-            dp[i][0]=true;                                    
-        }
-        dp[0][arr[0]]=true;
+        vector<bool> prev(sum+1,0),curr(sum+1,0);           // space optimization
+        // return solve(0,sum,n,arr,dp);
+        prev[0]=true,curr[0]=true;
+        prev[arr[0]]=true;
         for(int i=1;i<n;i++){
             for(int j=1;j<=sum;j++){
-                bool notTake=dp[i-1][j];
+                bool notTake=prev[j];
                 bool take=false;
                 if(arr[i]<=j){
-                    take=dp[i-1][j-arr[i]];
+                    take=prev[j-arr[i]];
                 }
-                dp[i][j]=take | notTake;
+                curr[j]=take | notTake;
             }
+            prev=curr;
             
         }
-        return dp[n-1][sum];
+        return prev[sum];
     }
 };
 
