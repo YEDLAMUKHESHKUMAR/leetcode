@@ -15,7 +15,7 @@ class Solution
         int i=0,j=0;
         int n=s.size();
         long long int ans=0;
-        vector<int> chars(26,0);    // very good problem
+        vector<int> chars(26,0);    
         int distinct=0;
         while(i<n){
             chars[s[i]-'a']++;
