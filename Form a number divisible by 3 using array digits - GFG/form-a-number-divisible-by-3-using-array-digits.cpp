@@ -13,13 +13,7 @@ class Solution {
         // code here
         long long sum=0;
         for(int i=0;i<n;i++){
-            int num = arr[i];
-            int rem;
-            while(num!=0){
-                rem=num % 10 ;
-                sum += rem ;
-                num /= 10;
-            }
+            sum+=arr[i];
         }
         if(sum % 3 == 0){
             return 1;
