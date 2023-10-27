@@ -35,13 +35,10 @@ class Solution {
                     containIP = true ;
                     int num = s[i] - '0';
                     ipAddress = ipAddress*10 + num;
-                    // ipAddress.push_back(s[i]);
                 }
                 
             }
             if(dots<3) return 0;
-            // if(ipAddress.empty()) return 0;
-            // isInRange= ipAddress-'0';
             if(ipAddress<0 || ipAddress>255) return 0;
             return 1;
             
