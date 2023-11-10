@@ -25,7 +25,7 @@ public:
         if(n==1) return ans;
         j+=2;
         int size1 = 0 ;
-        while(size1 !=2){
+        while(size1 !=1){ // look even you write !=100 , it will work , becoz it will keep on loop on the vector having size 1
             int currSize = mp[startWith].size();
             if(currSize==1) size1++;
             for(int i=0;i<currSize;i++){
