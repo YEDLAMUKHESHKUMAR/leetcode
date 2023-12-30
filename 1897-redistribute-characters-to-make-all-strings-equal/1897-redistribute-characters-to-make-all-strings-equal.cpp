@@ -7,14 +7,13 @@ public:
            int j=words[i].size()-1;
            while(j>=0){
                mp[words[i][j]]++;
-            //    count=mp[words[i][j]];
                j--;
            }
            
        } 
        
        for(auto i:mp){
-           if(i.second%n!=0){
+           if(i.second % n!=0){
                return false;
            }
        }
