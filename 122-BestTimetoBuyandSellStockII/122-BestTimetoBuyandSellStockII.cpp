@@ -18,7 +18,7 @@ public:
         else{
             int sell  = (prices[i]) +  solve(i, !flag, prices, dp);
             int notsell = solve(i + 1, flag, prices, dp);
-            ans = sell;
+            ans = max(sell , notsell);
         }
         return dp[i][flag] = ans;
 
