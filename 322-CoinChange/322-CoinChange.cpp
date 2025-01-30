@@ -1,67 +1,66 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long int
+#define ld long double
+#define mp make_pair
+#define mt make_tuple
+#define F first
+#define S second
+#define pii pair<int,int>
+#define endl "\n"
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define sz(x) (int)(x).size()
+#define rep(i,a,b) for(int i = a ; i < b ; i++)
+// #define rrep(i,a,b) for(int i = a ; i >= b ; i--)
+#define N 1e6+1
+ // -------------------------------------MATH-----------------------------------
+#define gcd(a,b) __gcd(a,b)
+#define lcm(a,b) (a*(b/gcd(a,b)))
+
+// -------------------------------------TEST CASE-------------------------
+#define test int tc; cin>>tc; while(tc--)
+#define narr ll n ; cin>>n; vi arr(n); rep(i , 0 , n) cin>>arr[i];
+#define take(x) ll (x);cin>>(x);
+#define takearr(name, size)  vl (name)(size); rep(i , 0 , size) cin>>(name)[i];
+// -----------------------------DEBUG----------------------------------------
+#define printv(a) {for(auto u:a) cout<<u<<" "; cout<<endl;}
+#define printm(a) {for(auto u:a) cout<<u.F << " " << u.S<<endl;}
+// ------------------------------------------------------------------
+// #define op() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+typedef vector<ll> vl;
+typedef vector<int> vi;
+typedef vector<char> vc;
+typedef vector<string> vs;
+typedef set<int> si;
+typedef map<int, int> mii;
+const double eps = 1e-9;
+const int mod = (int)1e9 + 7;
+
 class Solution {
-public: 
-    int solve(int i, int amount, vector<int> &coins,vector<vector<int>> &dp){
-        if(amount == 0) return 0;
-        if(i < 0) return 1e8;
-        if(dp[i][amount] != -1) return dp[i][amount];
-        int pick = 1e8;
-        if(amount - coins[i] >= 0){
-            pick = 1 + solve(i,amount - coins[i] , coins,dp);
-        }
-        int notPick = 0 + solve(i-1,amount,coins,dp);
-        return dp[i][amount] = min(pick,notPick);
-    }
-    
-    /*
-    
-        5
-       /
-      5
-     /\
-    0. _
-      / \
-     _   
-
-    */
-
-
-
+public:
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        sort(coins.begin(),coins.end());
-        // vector<vector<int>> dp(n,vector<int> (amount+1,-1));
-        // int ans = solve(n-1,amount,coins,dp) ;
-        // if(ans == 1e8) return -1;
-        // return ans;
-        // vector<vector<int>> dp(n+1,vector<int> (amount+1,1e8));
-        // for(int i = 0 ;i <=n;i++){
-        //     dp[i][0] = 0; 
-        // }
-        // for(int i = 1 ;i<=n ;i++){
-        //     for(int j = 1;j<=amount;j++){
-        //         int pick = 1e8; 
-        //         if(j >= coins[i-1]){
-        //             pick = 1 + dp[i][j- coins[i-1]];
-        //         }
-        //         int notPick = dp[i-1][j];
-        //         dp[i][j] = min(pick,notPick);
-        //     }
-        // }
-        // if(dp[n][amount] >= 1e8) return -1;
-        // return dp[n][amount];
-
-        vector<int> dp(amount + 1, 1e8);
-        dp[0] = 0;
-        for(int sum = 1; sum <= amount; sum++){
-            for(int i = 0;i<n;i++){
-                if(coins[i] <= sum){
-                    dp[sum] = min(dp[sum] , 1 + dp[sum - coins[i]]);
+        // sort(coins.begin(), coins.end());
+        vector<vector<int>> dp(n , vector<int> (amount + 1, 1e8));
+        for(int i = 0; i<n;i++){
+            dp[i][0] = 0;
+        }
+        for(int i = 0; i<n;i++){
+            for(int j = 0; j <= amount; j++){
+                if(j >= coins[i]){
+                    dp[i][j] = min(dp[i][j] ,1 +  dp[i][j - coins[i]]);  // use current coin, and the remaining amount already been calculeted when we came from left to right...so take that value...but remember we don't take i-1, because i can change, will have min value
                 }
-                else break;
+                if(i != 0){
+                    dp[i][j] = min(dp[i][j], dp[i-1][j]);
+                }
+
             }
         }
-        // for(int i = 0; i<= amount ;i++) cout<<dp[i]<<" ";
-        return dp[amount] == 1e8 ? -1 : dp[amount];
-
+        // for(auto i:dp){
+            // printv(i);
+        // }
+        return dp[n-1][amount] == 1e8 ? -1 : dp[n-1][amount];
     }
 };
