@@ -65,7 +65,7 @@ public:
     int maximalSquare(vector<vector<char>>& matrix) {
         int n = matrix.size();
         int m = matrix[0].size();
-        vector<vector<int>> prefix(n, vector<int> (m, 0));
+        vector<vector<int>> prefix(n, vector<int> (m, 0));  // :)
         prefix[0][0] = matrix[0][0] - '0'; 
         for(int i = 0 ;i < n; i++){
             for(int j = 0; j<m;j++){
