@@ -41,10 +41,7 @@ const int mod = (int)1e9 + 7;
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
-        // 1  2  3   4   5   6   7  8  9  10   11 12 13 14 15 16 17 18 19 20
-        // 2  4  6   8   9   9   9  9  11 13   15 
-        // 7  7  7   7   7   7   7  9  11 13   14
-        // 15 15 15  15  15  15 15 15  15 15   15
+        
 
         //  [1,4,6,7,8,20], 
         //  [2,7,15]
@@ -67,7 +64,6 @@ public:
                     dp[day] = dp[day - 1];  // these are not there in days....
                 }
             }
-
             int currDay = days[i];
             dp[currDay] = costs[0] + dp[currDay - 1] ;
             dp[currDay] = min(dp[currDay], costs[1] + (dp[currDay >= 7 ? currDay - 7 : 0]));
