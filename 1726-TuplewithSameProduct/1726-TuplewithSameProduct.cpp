@@ -16,7 +16,7 @@ public:
         for(auto i:allProduct){
             int num = i.first;
             int valid = i.second;
-            // for(int j = 1 ; j<= sqrt(num) ;j++){
+            // for(int j = 1 ; j<= sqrt(num) ;j++){ // no need of this .... tle 
             //     if(j == num / j) continue;
             //     if(num % j == 0){
             //         if(mp.find(j) != mp.end() && mp.find(num / j) != mp.end() ){
@@ -25,7 +25,7 @@ public:
             //     }
             // }
             if(valid > 1 ){
-                ans += (valid * (4 * (valid - 1)));
+                ans += (valid * (4 * (valid - 1)));  // :)
             }
             
         }
