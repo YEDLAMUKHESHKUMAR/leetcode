@@ -3,7 +3,7 @@ public:
     int matrixScore(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        vector<int> flipped(n, 0);
+        vector<int> flipped(n, 0); // easy peasy
         for(int i = 0; i<n;i++){
             if(grid[i][0] == 0){
                 flipped[i] = 1;
