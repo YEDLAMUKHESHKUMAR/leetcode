@@ -1,9 +1,12 @@
 class NumberContainers {
 public: 
     unordered_map<int,int> mp;
-    // unordered_map<int, priority_queue<int, vector<int> , greater<int> >> pq; // instead of using this and another set to track overwritten indexes with numbers..
+    // unordered_map<int, priority_queue<int, vector<int> , greater<int> >> pq;
     // set<pair<int,int>> st;
-    unordered_map<int, set<int>> st; // we can just use set inside of it...it is same as previous right...
+    // something went wrong with above pq + set(for removal) approach...well i can combine both into one....
+    // instead of using this and another set to track overwritten indexes with numbers..
+    // we can just use set inside of it...it is same as previous right...
+    unordered_map<int, set<int>> st; 
     NumberContainers() {
         
     }
