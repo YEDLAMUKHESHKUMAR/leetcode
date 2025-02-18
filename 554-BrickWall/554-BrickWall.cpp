@@ -27,7 +27,7 @@ public:
         for(int i = 0; i<n;i++){
             ll sum = 0;
             for(int j = 0; j<wall[i].size() - 1;j++){
-                sum += wall[i][j];  // thought of prefix...maybe works ??
+                sum += wall[i][j];  // thought of prefix and store sums in map...maybe works ?? yep worked.... :)
                 mp[sum]++;
             }
         }
