@@ -3,17 +3,17 @@ public:
     string smallestNumber(string s) {
         // IIDID
         // 124365
-        // 124356
+        // swaps..
 
         // DIDDI
         // 123456
         // 215436
 
         // DDDD
-        // 32145
+        // 54321
         int n = s.size();
         string ans = "";
-        for(int i = 1; i<=n+1;i++){
+        for(int i = 1; i<=n+1;i++){  // :) notes
             ans += to_string(i);
         }
 
