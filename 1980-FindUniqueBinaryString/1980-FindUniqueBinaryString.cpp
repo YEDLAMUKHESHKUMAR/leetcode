@@ -1,17 +1,25 @@
 class Solution {
 public:
-    string findDifferentBinaryString(vector<string>& nums) {
-        int n = nums.size();
-        unordered_map<string, int> mp;
-        for(auto i: nums) mp[i]++;
-        for(int i = 0; i < (1 << n) ; i++){
-            string temp = "";
-            for(int pos = n - 1 ; pos >= 0; pos--){
-                if( ( i >> pos ) & 1 ) temp += "1";
-                else temp += "0";
+    void solve(string temp, int n, unordered_map<string, int> &mp, bool &flag, string &ans){
+        if(temp.size() == n){
+            if(mp.find(temp) == mp.end()){
+                ans = temp; 
+                flag = true;
             }
-            if(mp.find(temp) == mp.end() ) return temp;
+            return;
         }
-        return "";
+        if(flag == true) return;
+
+        solve(temp + "0" , n, mp, flag, ans);
+        solve(temp + "1" , n, mp, flag, ans);
+        
+    }
+    string findDifferentBinaryString(vector<string>& nums) {
+        unordered_map<string, int> mp; // back tracking approach...bit solution previous submission...
+        for(auto i : nums) mp[i]++;
+        string ans = "";
+        bool flag = false;
+        solve("", nums.size(), mp, flag, ans);
+        return ans;
     }
 };
