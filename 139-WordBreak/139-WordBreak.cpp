@@ -17,11 +17,8 @@ public:
     bool wordBreak(string s, vector<string>& wordDict) {
         int n = s.size();
         unordered_map<string,int> mp;
-        for(auto i: wordDict) mp[i]++;   // :)
-        // my dp[i] will tell me, whether i can reach to the end , if i start the process from here, 
-        // eg : for the first test case....consider the wordDict also contains : "l", "e", "le"...
-        // now , in s = "leetcode", i can reach to the index 2, either by taking "l" , "e"  or "le"
-        // in any way, i wouldn't be able to make it to the end, if i reach the index 2, so that's it....
+        for(auto i: wordDict) mp[i]++;   // :)  notes
+        
         vector<int> dp(n, -1);
         return solve(0, s, mp, dp);
     }
