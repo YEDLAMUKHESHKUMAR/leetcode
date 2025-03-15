@@ -20,6 +20,7 @@ public:
         }
         if(taken < k) return false;
         return true;
+        // no need to check whether mid exist or not... since there exists >=k elements...this can be our answer...so assume it is our answer and return true...
         
         
     }
@@ -27,7 +28,7 @@ public:
     int minCapability(vector<int>& nums, int k) {
         // 2 3 2 1 3 9 9
         int n = nums.size();
-        unordered_map<int,vector<int>> mp;
+        unordered_map<int,vector<int>> mp;  // no use of map...
         int mini = INT_MAX, maxi = INT_MIN;
         for(int i = 0; i < n ;i++){
             mp[nums[i]].push_back(i);
