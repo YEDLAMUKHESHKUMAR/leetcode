@@ -1,4 +1,4 @@
-// Last updated: 3/29/2025, 6:07:23 PM
+// Last updated: 3/29/2025, 6:08:12 PM
 #define ll long long
 const int mod = 1e9 + 7;
 
@@ -77,26 +77,23 @@ public:
         //     stackOp(false, st, i , next, primeFactors);
         // }
         ll K = k;
-        cout<<endl;
-        for(int i = 0; i < next.size();i++){
-            cout<<prev[i]<<" : "<<next[i]<<endl;
-        }
+       
         while(K > 0){
             top = pq.top().first;
             ind = pq.top().second;
             pq.pop();
             left = ind - prev[ind];
             right = next[ind] - ind ;
-            // ll l = (((left % mod) + (right  % mod)) % mod) ;
-            // ll r = (((left - 1) % mod) * (right % mod)) % mod;
-            // possible = ((l % mod) + (r % mod)) % mod;
             possible = ((left ) * right ) ;
             need = min(possible, K);
             K -= need;
+            ans = (ans * expo(top , need)) % mod;
+            // ll l = (((left % mod) + (right  % mod)) % mod) ;
+            // ll r = (((left - 1) % mod) * (right % mod)) % mod;
+            // possible = ((l % mod) + (r % mod)) % mod;
             // ll power = expo(top, need) % mod;
             // cout<<ind<<" : "<<top<<" : "<<need<<" : "<<power<<endl;
             
-            ans = (ans * expo(top , need)) % mod;
 
             // if(K == 0) break;
         }
