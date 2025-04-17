@@ -1,48 +1,24 @@
-// Last updated: 4/17/2025, 3:44:26 PM
+// Last updated: 4/17/2025, 3:53:39 PM
 #define ll long long
 class Solution {
 public:
-    ll bs(ll tar, vector<pair<ll,ll>> &st){
-        ll n = st.size();
-        ll low = 0, high = n - 1, ans = -1;
-        while(low <= high){
-            ll mid = (low + high) >> 1;
-            if(st[mid].first >= tar){
-                ans = mid;
-                high = mid - 1;
+    int maxTwoEvents(vector<vector<int>>& events) {
+        ll n = events.size();
+        ll maxSum = 0, ans = 0, st , end, currSum ; // :)
+        sort(events.begin(), events.end());
+        priority_queue<pair<ll,ll>, vector<pair<ll,ll>>, greater<pair<ll,ll>> > pq;
+        for(int i = 0; i < n ;i++){
+            st = events[i][0];
+            end = events[i][1];
+            currSum = events[i][2];
+            while(!pq.empty() && st > pq.top().first ){
+                ll prevSums = pq.top().second;
+                pq.pop();
+                maxSum = max(maxSum, prevSums);
             }
-            else low = mid + 1;
+            ans = max(ans, currSum + maxSum);
+            pq.push({end, currSum});
         }
         return ans;
-    }
-    int maxTwoEvents(vector<vector<int>>& events) {
-        // 1 10, 2 3 , 5 6  
-        ll n = events.size();
-        vector<pair<ll, ll>> st;  // did it using binary search....just now got another approach using heap...:)
-        sort(events.begin(), events.end());
-        for(int i = 0; i < n ;i++){
-            st.push_back({events[i][0], events[i][2]});
-        }
-        sort(st.begin(), st.end());
-        ll maxi = 0, sum = 0;
-        for(int i = n - 1; i >= 0; i--){
-            maxi = max(maxi, st[i].second);
-            st[i].second = maxi;
-        }
-
-        for(int i = 0; i< n ;i++){
-            ll findSt = events[i][1] + 1;
-            ll ind = bs(findSt, st);
-            if(ind != -1){
-                sum = max(sum, events[i][2] + st[ind].second);
-            }
-            else sum = max(sum, 1LL * events[i][2]);
-        }
-        return sum;
-
-        
-
-       
-
     }
 };
