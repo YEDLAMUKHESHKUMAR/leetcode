@@ -1,4 +1,4 @@
-// Last updated: 4/17/2025, 3:43:09 PM
+// Last updated: 4/17/2025, 3:44:26 PM
 #define ll long long
 class Solution {
 public:
@@ -18,7 +18,7 @@ public:
     int maxTwoEvents(vector<vector<int>>& events) {
         // 1 10, 2 3 , 5 6  
         ll n = events.size();
-        vector<pair<ll, ll>> st;
+        vector<pair<ll, ll>> st;  // did it using binary search....just now got another approach using heap...:)
         sort(events.begin(), events.end());
         for(int i = 0; i < n ;i++){
             st.push_back({events[i][0], events[i][2]});
