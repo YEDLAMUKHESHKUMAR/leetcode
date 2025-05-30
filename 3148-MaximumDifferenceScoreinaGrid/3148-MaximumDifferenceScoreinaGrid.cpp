@@ -1,4 +1,4 @@
-// Last updated: 5/30/2025, 10:35:17 PM
+// Last updated: 5/30/2025, 10:35:29 PM
 class Solution {
 public:
     int solve(int day, int city, int k, vector<vector<int>>& stayScore, vector<vector<int>>& travelScore, vector<vector<int>> &dp ){
@@ -24,11 +24,7 @@ public:
         }
 
         return maxi;
-        //  you can do it... it is what you think it is....
-
-        // if you want to stay in city ... you must take it from first array... but if you want to move... 
-        // u have to take it from the other array..
-        // at first on the 0th day.. you can take any city from stayScore[0]... then follow the rules..
+        
 
 
         
