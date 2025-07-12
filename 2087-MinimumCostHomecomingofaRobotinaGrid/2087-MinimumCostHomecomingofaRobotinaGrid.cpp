@@ -1,23 +1,34 @@
-// Last updated: 7/12/2025, 9:16:33 PM
+// Last updated: 7/12/2025, 10:07:35 PM
 class Solution {
 public:
-    int minimumBuckets(string s) {
-        int n = s.size();
-        int food = 0;
-        for(int i = 0; i < n ; i++){
-            if(s[i] == 'H'){
-                if(i > 0 && s[i - 1] == 'F') continue;
-                if(i < n && s[i + 1] == '.') {
-                    food++;
-                    s[i + 1] = 'F';
-                } 
-                else if(i > 0 && s[i - 1] == '.'){
-                    food++;
-                }
-                else return -1;
-
+    int minCost(vector<int>& startPos, vector<int>& homePos, vector<int>& rowCosts, vector<int>& colCosts) {
+        // :)
+        int cost = 0;
+        int r1 = startPos[0], r2 = homePos[0];
+        int c1 = startPos[1], c2 = homePos[1];
+        
+        if(r1 < r2){
+            for(int i = min(r1, r2) + 1 ; i <= max(r1, r2) ; i++){
+                cost += rowCosts[i];
             }
         }
-        return food;
+        if(r1 > r2){
+            for(int i = max(r1, r2) - 1  ; i >= min(r1, r2) ; i--){
+                cost += rowCosts[i];
+            }
+        }
+        if(c1 < c2){
+            for(int i = min(c1, c2) + 1 ; i<= max(c1, c2) ; i++){
+                cost += colCosts[i];
+            }
+        }
+        if(c1 > c2){
+            // cout<<1;
+            for(int i = max(c1, c2) - 1  ; i >= min(c1, c2) ; i--){
+                cost += colCosts[i];
+            }
+        }
+        return cost;
+
     }
 };
