@@ -1,24 +1,28 @@
+// Last updated: 7/24/2025, 3:32:39 PM
 class Solution {
 public:
-    void solve(int prev, string temp, int n, vector<string> &ans){
-        if(temp.size() == n){
-            ans.push_back(temp);
+    vector<string> chars = {"a", "b", "c"};
+    void solve( int prev, int n, int& k ,string curr, string& ans){
+        if(curr.size() == n) {
+            k--;
+
+            if(k == 0){
+                ans = curr;
+            }
             return;
         }
+        // cout<<curr<<endl;
 
-        for(int i = 0; i < 3; i++){
-            char ch = char('a' + i);
-            if(prev != i){
-                solve(i, temp + ch, n, ans);
+        for(int ind = 0 ; ind < 3; ind++){
+            if(ind != prev){
+                solve(ind, n, k, curr + chars[ind], ans );
             }
         }
+
     }
     string getHappyString(int n, int k) {
-        vector<string> ans;
-        solve(-1, "", n, ans );
-        sort(ans.begin(), ans.end());
-        for(auto i : ans) cout<<i<<endl;
-        if(ans.size() < k) return "";
-        return ans[k - 1];
+        string ans = "";
+        solve( -1, n, k, "", ans);
+        return ans;
     }
 };
