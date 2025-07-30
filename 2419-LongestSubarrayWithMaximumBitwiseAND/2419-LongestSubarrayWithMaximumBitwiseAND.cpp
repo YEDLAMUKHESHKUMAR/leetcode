@@ -1,16 +1,22 @@
-// Last updated: 7/30/2025, 6:42:34 PM
+// Last updated: 7/30/2025, 6:48:19 PM
 class Solution {
 public:
     int longestSubarray(vector<int>& nums) {
         int n = nums.size();
         // notes :)
-        int maxi = 0;
+        int AND = nums[0];
+        int maxAND = nums[0];
         for(int i = 0; i < n ;i++){
-            maxi = max(maxi, nums[i]);
+            AND &= nums[i];
+            if(AND < nums[i]){
+                maxAND = max(maxAND, nums[i]);
+                AND = nums[i];
+            }
+            // maxi = max(maxi, nums[i]);
         }
         int maxCount = 0, c = 0;
         for(int i = 0 ; i < n ;i++){
-            if(nums[i] == maxi) c++;
+            if(nums[i] == maxAND) c++;
             else {
                 maxCount = max(maxCount, c);
                 c = 0;
