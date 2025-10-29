@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -34,10 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
+| [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Backtracking
 |  |
 | ------- |
