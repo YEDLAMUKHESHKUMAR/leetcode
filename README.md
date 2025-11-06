@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 | [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Binary Search
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 | [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Backtracking
 |  |
@@ -74,4 +76,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
+## Depth-First Search
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
+## Union Find
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
+## Graph
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
+## Ordered Set
+|  |
+| ------- |
+| [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 <!---LeetCode Topics End-->
