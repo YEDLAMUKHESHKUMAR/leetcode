@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1617-stone-game-iv](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1617-stone-game-iv) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
@@ -128,4 +130,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2211-count-collisions-on-a-road](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2211-count-collisions-on-a-road) |
+## Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
