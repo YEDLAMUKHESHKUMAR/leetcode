@@ -11,8 +11,9 @@ public:
         if(j >= m) return false;
         if(dp[i][j] != -1) return dp[i][j];
         if(p[j] == '*'){
-            if(solve(i + 1, j, s, p, dp)) return dp[i][j] = true;
-            if(solve(i, j + 1, s, p, dp)) return dp[i][j] = true;
+            int take = solve(i + 1, j, s, p, dp)  ;
+            int leave = solve(i, j + 1, s, p, dp) ;
+            return dp[i][j] = take | leave;
         }
         else if( s[i] == p[j]  || p[j] == '?'){
             if(solve(i + 1, j + 1, s, p, dp)) return dp[i][j] = true;
