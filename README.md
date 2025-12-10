@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1617-stone-game-iv](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1617-stone-game-iv) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2211-count-collisions-on-a-road](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2211-count-collisions-on-a-road) |
@@ -138,4 +141,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
