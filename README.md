@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1617-stone-game-iv](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1617-stone-game-iv) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -37,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Sliding Window
@@ -52,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Hash Table
@@ -81,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
+| [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
