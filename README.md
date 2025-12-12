@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0132-palindrome-partitioning-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
+| [0132-palindrome-partitioning-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2211-count-collisions-on-a-road](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2211-count-collisions-on-a-road) |
