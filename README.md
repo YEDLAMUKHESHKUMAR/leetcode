@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
+| [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 ## Game Theory
 |  |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -167,4 +169,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
+## Bitmask
+|  |
+| ------- |
+| [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
 <!---LeetCode Topics End-->
