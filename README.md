@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1617-stone-game-iv](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1617-stone-game-iv) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 ## Game Theory
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Sliding Window
@@ -58,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Prefix Sum
