@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
+| [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Prefix Sum
@@ -124,18 +125,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
 | ------- |
+| [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
+| [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Heap (Priority Queue)
 |  |
