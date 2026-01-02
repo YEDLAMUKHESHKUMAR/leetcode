@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
+| [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Prefix Sum
 |  |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
+| [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 | [4063-count-distinct-subarrays-divisible-by-k-in-sorted-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/4063-count-distinct-subarrays-divisible-by-k-in-sorted-array) |
 ## Backtracking
@@ -148,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Ordered Set
 |  |
@@ -165,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2211-count-collisions-on-a-road](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2211-count-collisions-on-a-road) |
+| [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 ## Tree
 |  |
 | ------- |
