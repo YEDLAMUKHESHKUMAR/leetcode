@@ -130,12 +130,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0310-minimum-height-trees](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0310-minimum-height-trees) |
 | [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0310-minimum-height-trees) |
 | [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Binary Tree
 |  |
 | ------- |
