@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1617-stone-game-iv](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1617-stone-game-iv) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
