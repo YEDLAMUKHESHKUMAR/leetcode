@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0834-sum-of-distances-in-tree](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0834-sum-of-distances-in-tree) |
 | [0968-binary-tree-cameras](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0968-binary-tree-cameras) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0310-minimum-height-trees](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0310-minimum-height-trees) |
+| [0834-sum-of-distances-in-tree](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0834-sum-of-distances-in-tree) |
 | [0968-binary-tree-cameras](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0968-binary-tree-cameras) |
 | [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0834-sum-of-distances-in-tree](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0834-sum-of-distances-in-tree) |
 | [0968-binary-tree-cameras](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0968-binary-tree-cameras) |
 | [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Binary Tree
@@ -203,4 +206,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0310-minimum-height-trees](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0310-minimum-height-trees) |
+## Graph Theory
+|  |
+| ------- |
+| [0834-sum-of-distances-in-tree](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0834-sum-of-distances-in-tree) |
 <!---LeetCode Topics End-->
