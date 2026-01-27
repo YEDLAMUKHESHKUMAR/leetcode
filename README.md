@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0133-clone-graph) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0044-wildcard-matching) |
+| [0127-word-ladder](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0133-clone-graph) |
 | [0310-minimum-height-trees](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0310-minimum-height-trees) |
 | [2092-find-all-people-with-secret](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2092-find-all-people-with-secret) |
