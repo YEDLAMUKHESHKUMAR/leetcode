@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
+| [2216-minimum-deletions-to-make-array-beautiful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2216-minimum-deletions-to-make-array-beautiful) |
 | [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2211-count-collisions-on-a-road](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2211-count-collisions-on-a-road) |
+| [2216-minimum-deletions-to-make-array-beautiful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2216-minimum-deletions-to-make-array-beautiful) |
 ## Greedy
 |  |
 | ------- |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
+| [2216-minimum-deletions-to-make-array-beautiful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2216-minimum-deletions-to-make-array-beautiful) |
 ## Monotonic Stack
 |  |
 | ------- |
