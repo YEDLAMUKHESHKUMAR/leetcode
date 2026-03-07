@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2172-maximum-and-sum-of-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2172-maximum-and-sum-of-array) |
 | [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/0133-clone-graph) |
+| [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2402-meeting-rooms-iii](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [3863-power-grid-maintenance](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/3863-power-grid-maintenance) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Enumeration
 |  |
@@ -124,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2170-minimum-operations-to-make-the-array-alternating](https://github.com/YEDLAMUKHESHKUMAR/leetcode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 ## Monotonic Stack
 |  |
 | ------- |
